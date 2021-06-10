@@ -1,0 +1,173 @@
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 9;
+    display: block;
+}
+
+.header-logo img {
+    float: left;
+    height: 80px;
+    width: 70px;
+}
+
+.header-logo h1 {
+    float: left;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#240430;
+    padding: 5px;
+}
+
+.header-list {
+    float: left;
+    height: 55px;
+    width: 100%;
+    border: 2px solid #f8f8f8;
+    background-color: #240430;
+    color: white;
+    margin-top: 80px;
+    position: fixed;
+    z-index: 10;
+}
+
+.header-list li {
+    list-style: none;
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    background-color: hsl(300, 100%, 99%);
+    margin: 0 10px;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.header-right {
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-right:hover {
+    background-color: #240430;
+}
+
+.main {
+    padding: 180px 0 100px 0;
+    background-image: url(https://i.ibb.co/cg3HtD9/diet.png);
+    background-size: cover;
+    top: 100px;
+    text-align: center;
+    height: 500px;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(68, 8, 63);
+}
+
+.copy-container h1 {
+    margin-top: 70px;
+}
+
+.contact-form h3 {
+    margin-top: 60px;
+    color: #240430;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 40px;
+}
+
+.btn-signup {
+    margin: 30px 0;
+}
+
+.btn-signup p {
+    margin: 20px 0;
+}
+
+.email {
+    background-color: #c294ad;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 15px;
+}
+
+.nomor {
+    background-color: #445b6d;
+}
+
+.contents {
+    margin-top: 100px;
+    
+}
+
+.contents-list {
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+table {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 1000px) {
+  table {
+    width: 50%;
+  }
+  
+}
+
+.footer {
+    background-color: #240430;
+    margin-top: 400px;
+    background-size: cover;
+}
+
+.footer-logo {
+    display: block;
+    float: left;
+}
+
+.footer-logo img {
+    float: left;
+    height: 80px;
+    width: 70px;
+}
+
+.footer-logo h1 {
+    float: left;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    
+}
+
+.footer-list {
+    float: right;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+
+.footer-list li {
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0 10px;
+    font-family: fantasy;
+}
